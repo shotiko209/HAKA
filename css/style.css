@@ -1,0 +1,219 @@
+/*CSS Document*/
+
+body {
+    background-image: linear-gradient(150deg, #324ad1 , #1d7ca8 30%,#002cf1 );
+  }
+  
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#header div ul li {
+    float: left;
+    list-style: none;
+}
+
+
+
+#nav {
+    margin-left:20%;
+}
+
+#nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #bb1818;
+    width: 160px;
+    line-height: 60px;
+    height: 60px;
+    transition: 0.5s background-color;
+}
+
+#nav ul li a:hover {
+    background-color: #8f0d0d;
+    box-shadow: inset 0px 0px 5px 2px #000;
+}
+
+#logo {
+    padding-bottom: 60px;
+    position: absolute;
+    width: 100%;
+    background-color: #fafafa;
+    z-index: -1;
+}
+
+#active a {
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+#active2 a {
+    border-left: 3px soild white;
+}
+
+#nav ul ul {
+    position: absolute;
+    width: 200px;
+    z-index: 99;
+}
+
+#nav ul ul li {
+    display: none;
+}
+
+#nav ul li:hover ul li {
+    display: block;
+}
+
+#nav ul ul li a {
+    border-bottom: 2px solid rgb(255, 0, 0);
+    background-color: #002a85;
+    display: inline-block;
+    padding: 0px;
+    width: 160px;
+    text-align: center;
+}
+
+#slider img {
+    margin-top:9%px;
+    width: 100%;
+    
+}
+#text {
+    position: absolute;
+    width: auto;
+    top: 100px;;
+    left: 0px;;
+    color:white;
+}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+#sing {
+    position:absolute;
+    top:200px;
+    left:50px;
+}
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+ 
+  
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  #log {
+    position:absolute;
+    top:200px;
+    left:50px;
+}
+
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  
